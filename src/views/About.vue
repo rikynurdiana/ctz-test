@@ -1,21 +1,6 @@
 <template>
   <div class="container">
-    <h2>Soal</h2>
-    <ol>
-      <li>Buatlah table untuk menampilkan data</li>
-      <li>Buatlah dialog untuk action create, edit dan view data</li>
-      <li>Simpan data hasil create kedalam memory (jika halaman di refresh, data akan hilang)</li>
-      <li>Jika dapat menggunakan vuex untuk store data. akan mendapatkan nilai tinggi</li>
-      <li>Untuk setiap action create, edit dan delete. Gunakan alert sebagai media informasi nya</li>
-      <li>Tampilkan hasil kerja anda di halaman 'Jawaban'.</li>
-      <li>Semua components yang dibutuhkan untuk mengerjakan sudah di siapkan dan tinggal digunakan (terlampir di bawah)</li>
-    </ol>
-
-    <br>
-    <hr>
-    <br>
-
-    <h2>Data</h2>
+    <h2>Terdapat data berbentuk biodata dengan field berikut</h2>
     <ol>
       <li>nama (input text)</li>
       <li>jenis kelamin (select option)</li>
@@ -28,7 +13,31 @@
     <hr>
     <br>
 
-    <h2>Components</h2>
+    <h2>Soal</h2>
+    <ol>
+      <li>Buatlah table untuk menampilkan data-data tersebut</li>
+      <li>Buatlah dialog untuk mengisi form pada action create, edit, dan view data</li>
+      <li>Buatlah alert untuk setiap action create, edit dan delete yang disubmit</li>
+    </ol>
+
+    <br>
+    <hr>
+    <br>
+
+    <p>Tampilkan hasil kerja anda di halaman ‘Jawaban’</p>
+    <h2>Notes</h2>
+    <ol>
+      <li>Simpan data hasil crate ke dalam memory (jika halaman di refresh, data akan hilang)</li>
+      <li>Jika dapat menggunakan vuex untuk store data akan mendapatkan nilai tambahan</li>
+      <li>Untuk penempatan design yang rapih mendapat nilai tambahan</li>
+      <li>Semua components yang dibutuhkan untuk mengerjakan sudah disiapkan dan tinggal digunakan (terlampir di bawah)</li>
+    </ol>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Komponen yang dapat digunakan :</h2>
     <strong>input text</strong>
     <v-text-field label="inpu text"></v-text-field>
 

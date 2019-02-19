@@ -14,20 +14,20 @@
       </v-flex>
 
       <v-flex mb-4>
-        <h1 class="font-weight-bold mb-3">
+        <!-- <h1 class="font-weight-bold mb-3">
           Welcome To Cartenz Frontend Web Developer Test
-        </h1>
-        <p class="subheading font-weight-regular">
-          Disini anda akan di test membuat aplikasi CRUD sederhana,
+        </h1> -->
+        <h2 class="headline font-weight-bold mb-3">
+          Disini anda akan di test membuat alikasi CRUD sederhana,
           <br>menggunakan vue.js dan vuetify
-        </p>
+        </h2>
       </v-flex>
 
       <v-flex
         mb-5
         xs12
       >
-        <h2 class="headline font-weight-bold mb-3">Apa yang kami harapkan</h2>
+        <h2 class="headline font-weight-bold mb-3">Faktor Penilaian</h2>
 
         <v-layout justify-center>
           <a
@@ -46,7 +46,7 @@
         xs12
         mb-5
       >
-        <h2 class="headline font-weight-bold mb-3">Cara Mengerjakan</h2>
+        <h2 class="headline font-weight-bold mb-3">Limitasi</h2>
 
         <v-layout justify-center>
           <a
@@ -96,30 +96,24 @@
       ],
       caraMengerjakan: [
         {
-          text: 'Tidak boleh browsing google',
+          text: 'Tidak boleh akses internet',
         },
         {
-          text: 'Kerjakan sesuai kemampuan',
-        },
-        {
-          text: 'Gunakan code editor kesayangan anda',
-        },
-        {
-          text: 'Running aplikasi di browser google chrome',
-        },
+          text: 'Dapat dijalankan di chrome',
+        }
       ],
       harapan: [
         {
-          text: 'Code Sederhana',
+          text: 'Struktur kode',
         },
         {
-          text: 'Penggunaan Logic',
+          text: 'Logika',
         },
         {
-          text: 'Reusable Code',
+          text: 'Reusability Code',
         },
         {
-          text: 'Aplikasi dapat di run secara baik',
+          text: 'Aplikasi dapat di jalankan dengan baik',
         }
       ]
     })
